@@ -74,4 +74,9 @@ SQL queries were written to analyze:
 - Evening hours showed higher customer purchases.
 - E-wallet and cash were the most commonly used payment methods.
 
-  
+  ## Author
+
+**Indesh Prajapati**
+
+B.Tech Computer Science Engineering  
+Aspiring Data Analyst & AI/ML Engineer 
