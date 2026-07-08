@@ -1,82 +1,207 @@
-# Walmart-Sales-Data-Analysis
+# 🛒 Walmart Sales Analysis using SQL & Python
 
-End-to-end SQL project analyzing Walmart sales data using PostgreSQL. Includes data cleaning with Python(pandas), business insights, and advanced SQL queries to solve real-world retail problems
+An end-to-end data analytics project that analyzes Walmart sales data using SQL and Python to uncover sales trends, customer purchasing behavior, branch performance, and business insights. The project demonstrates data cleaning, exploratory data analysis (EDA), feature engineering, SQL analysis, and business problem-solving using a real-world retail dataset.
 
-# Walmart Data Analysis: End-to-End SQL + Python Project
+---
 
-## Project Overview
+# 📌 Project Overview
 
+Retail businesses generate massive amounts of transactional data every day. This project analyzes Walmart sales data to answer important business questions that help improve operational efficiency and support data-driven decision-making.
 
-This project analyzes Walmart sales data using Python, Pandas, and SQL to discover meaningful business insights. The project involves data cleaning, exploratory data analysis (EDA), SQL-based analysis, and finding sales trends, customer behavior, and product performance.
+The project combines Python for data preprocessing and SQL for analytical querying to extract meaningful insights from retail sales data.
 
-The objective of this project is to help businesses make data-driven decisions by analyzing sales patterns and customer purchasing behavior.
+---
 
-## Technologies Used
+# 🎯 Project Objectives
+
+- Clean and preprocess raw sales data.
+- Perform Exploratory Data Analysis (EDA).
+- Analyze customer purchasing behavior.
+- Identify sales trends and branch performance.
+- Solve real-world business problems using SQL.
+- Generate actionable business insights.
+
+---
+
+# 🛠️ Technologies Used
 
 - Python
 - Pandas
 - NumPy
-- SQL (MySQL/PostgreSQL)
+- PostgreSQL
+- SQL
+- Matplotlib
 - Jupyter Notebook
-- VS Code
 - Git & GitHub
 
-  ## Data Cleaning
+---
 
-The following data preprocessing steps were performed:
+# 📂 Dataset
 
-- Checked missing values
+The dataset contains Walmart retail transaction records including:
+
+- Invoice ID
+- Branch
+- City
+- Customer Type
+- Gender
+- Product Line
+- Unit Price
+- Quantity
+- Tax
+- Total
+- Date
+- Time
+- Payment Method
+- COGS
+- Gross Margin Percentage
+- Gross Income
+- Rating
+
+---
+
+# 📊 Project Workflow
+
+```
+Raw Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Exploratory Data Analysis
+        │
+        ▼
+Feature Engineering
+        │
+        ▼
+Load Data into PostgreSQL
+        │
+        ▼
+SQL Analysis
+        │
+        ▼
+Business Insights
+```
+
+---
+
+# 🧹 Data Cleaning
+
+The dataset was cleaned using Python.
+
+Performed:
+
 - Removed duplicate records
+- Checked missing values
 - Corrected data types
 - Created new features
-- Handled inconsistent values
+- Validated cleaned data
 
-  ## Exploratory Data Analysis
+---
 
-The dataset was analyzed to answer business questions such as:
+# 📈 Exploratory Data Analysis (EDA)
 
-- Which branch generated the highest revenue?
-- Which product category had the highest sales?
-- What are the peak shopping hours?
-- Which payment method is most preferred?
-- How do customer ratings vary between branches?
+Performed analysis on:
 
-  ## SQL Analysis
+- Sales Distribution
+- Product Categories
+- Customer Type
+- Branch Performance
+- Payment Methods
+- Ratings
+- Revenue Distribution
+- Time-based Sales Trends
 
-SQL queries were written to analyze:
+---
 
-- Sales performance by branch
-- Monthly revenue trends
-- Product category performance
-- Customer purchasing patterns
-- Profitability analysis
+# 🗄️ SQL Business Problems Solved
 
-  Walmart-Sales-Analysis/
+The project answers the following business questions:
+
+1. Analyze payment methods and sales.
+2. Identify the highest-rated category in each branch.
+3. Determine the busiest day for every branch.
+4. Calculate total quantity sold by payment method.
+5. Analyze category ratings by city.
+6. Calculate total profit by category.
+7. Identify the most common payment method for each branch.
+8. Analyze sales shifts (Morning, Afternoon, Evening).
+9. Identify branches with the highest revenue decline year-over-year.
+
+---
+
+# 📊 Key Business Insights
+
+- Identified the highest-performing branches based on revenue.
+- Determined the most popular product categories.
+- Analyzed customer payment preferences.
+- Identified peak shopping hours and busiest weekdays.
+- Compared customer ratings across different cities.
+- Evaluated branch-wise profitability.
+
+---
+
+# 📁 Project Structure
+
+```
+Walmart-Sales-Analysis/
 │
-├── data/
-│   └── Walmart_Dataset.csv
-│
-├── notebooks/
-│   └── Data_Cleaning_EDA.ipynb
-│
-├── sql/
-│   └── Walmart_Analysis.sql
-│
-├── images/
-│   └── Dashboard.png
-│
-└── README.md
+├── Data_cleaning_with_Jupytor_Notebook.ipynb
+├── SQL_Sheet_walmart_project.sql
+├── Walmart Business Problems.pdf
+├── Walmart_Dataset.csv
+├── README.md
+```
 
-## Key Insights
+---
 
-- Branch A generated the highest sales revenue.
-- Food and beverage products contributed significantly to total sales.
-- Evening hours showed higher customer purchases.
-- E-wallet and cash were the most commonly used payment methods.
+# 🚀 Installation
 
-  ## Author
+Clone the repository
+
+```bash
+git clone https://github.com/indesh18/Walmart-Sales-Analysis.git
+```
+
+Install dependencies
+
+```bash
+pip install pandas numpy matplotlib sqlalchemy psycopg2
+```
+
+Run the notebook using Jupyter Notebook or VS Code.
+
+---
+
+# 📈 Results
+
+- Successfully cleaned and transformed retail sales data.
+- Solved multiple business problems using SQL.
+- Generated actionable insights for business decision-making.
+- Improved understanding of customer behavior and sales performance.
+
+---
+
+# 📌 Future Improvements
+
+- Build an interactive Power BI dashboard.
+- Develop a Streamlit web application.
+- Add sales forecasting using Machine Learning.
+- Deploy the project online.
+
+---
+
+# 👨‍💻 Author
 
 **Indesh Prajapati**
 
-B.Tech Computer Science Engineering  
-Aspiring Data Analyst & AI/ML Engineer 
+Data Analyst | SQL | Python | Power BI | Machine Learning
+
+GitHub: https://github.com/indesh18
+
+LinkedIn: *(Add your LinkedIn Profile URL)*
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
