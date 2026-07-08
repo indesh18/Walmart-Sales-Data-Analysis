@@ -200,7 +200,7 @@ Data Analyst | SQL | Python | Power BI | Machine Learning
 
 GitHub: https://github.com/indesh18
 
-LinkedIn: *(Add your LinkedIn Profile URL)*
+LinkedIn:https://www.linkedin.com/in/indesh-prajapati/
 
 ---
 
