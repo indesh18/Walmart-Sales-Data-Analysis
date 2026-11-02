@@ -47,7 +47,13 @@ def data_context(data):
     return summary
 
 def ask_gemini(question, context):
-    key = st.secrets.get("GOOGLE_API_KEY", os.getenv("GOOGLE_API_KEY", ""))
+   try:
+    api_key = st.secrets.get("GOOGLE_API_KEY", "")
+except Exception:
+    api_key = ""
+
+if not api_key:
+    api_key = os.getenv("GOOGLE_API_KEY", "")
     if not key:
         return "AI setup pending: add GOOGLE_API_KEY as described in README_AI_UPGRADE.md. The dashboard works without it."
     try:
