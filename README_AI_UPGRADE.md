@@ -23,7 +23,7 @@ Dashboard charts work without an API key. AI Q&A needs a Google Gemini API key.
 2. Create a `.streamlit` folder beside `app.py`.
 3. Create `.streamlit/secrets.toml` with:
 ```toml
-GOOGLE_API_KEY = "AIzaSyDSG77vfnF4gkFUmtAuqpqw9IRbhnmyXSU"
+GOOGLE_API_KEY =
 ```
 4. Restart Streamlit.
 
